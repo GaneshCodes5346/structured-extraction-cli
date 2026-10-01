@@ -3,7 +3,7 @@
 Extracts structured JSON data (company, role, required skills, experience, location) from unstructured job posting text, using the Gemini API's structured output feature (JSON schema enforcement via Pydantic).
 
 ## Why this exists
-Free-text LLM output is unreliable to parse. This forces the model to return data matching a strict schema, so the output is guaranteed valid and typed — no regex hacking, no hoping the JSON parses.
+Free-text LLM output is unreliable to parse. This forces the model to return data matching a strict schema, so the output is guaranteed valid and typed, no regex hacking, no hoping the JSON parses.
 
 ## Setup
 
